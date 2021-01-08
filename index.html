@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+    <head>
+        <title>task</title>
+
+    
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.5.2-dist/css/bootstrap.min.css">
+    </head>
+    
+    <body>
+
+
+
+<div class="topnav" >
+    <img style="width: 200px; height: 60px; float: left; padding: 2px;" src="logo1.jpg">
+  <a class="active" href="#home">Home</a>
+  <a href="#feedback">FeedBack</a>
+  <a href="#offers">Offers</a>
+  <a href="#about">About</a>
+  <!-- Search form -->
+<div class="md-form active-cyan-2 mb-3 searchb">
+  <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+</div>
+</div>
+
+
+<div>
+    <div class="div2 head">
+    <h1>Where you want to go?</h1>
+
+<input type="text" name="country" id="input1" placeholder="Enter the distination">
+<br><br>
+<input type="text" name="country" id="input2" placeholder="Enter your Place">
+<br>
+
+<input type="radio" name="x1" checked="true" id="way">One way
+
+<input type="radio" name="x1" id="roundd">Round<br>
+<input type="date" name="enterydate" id="dat1">
+
+<input type="date" name="leavingdate" id="dat2">
+<br><br>
+<button style="border-radius: 50px; color: white; background-color: #3333ff; width: 200px; height: 50px; font-size: 20px; " onclick="done()">search</button>
+</div>
+
+</div>
+<div class="div3">
+    
+<div class="text-center" id="offers">
+    <button class="btn" onclick="topp()">Top Offers</button>
+    <button class="btn"onclick="offeer()">Speacial offers</button>
+
+
+
+    
+</div>
+<div class="inner" id="inner">
+  <div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="fa fa-plane" aria-hidden="true"></i>Cairo</h5>
+        <p class="card-text"> <i class="fa fa-plane fa-rotate-180"  aria-hidden="true"></i> Bahrain  <br>From <span style="color: white; font-size: 20px; font-style: bold;">EGP 4568</span><br>To <span>EGP 3526</span></p>
+
+      </div>
+
+ <button class="btn9 btn-primary">Book Now</button>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="fa fa-plane" aria-hidden="true"></i>Cairo</h5>
+        <p class="card-text"> <i class="fa fa-plane fa-rotate-180"  aria-hidden="true"></i>alexandria <br>From <span style="color: white; font-size: 20px; font-style: bold;">EGP 4568</span><br>To <span>EGP 3526</span></p>
+</div>
+ <button class="btn9 btn-primary">Book Now</button>
+     
+    </div>
+  </div>
+</div>
+  <div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"> <i class="fa fa-plane" aria-hidden="true"></i>Cairo</h5>
+        <p class="card-text"> <i class="fa fa-plane fa-rotate-180"  aria-hidden="true"></i>Bahrain <br>From <span style="color: white; font-size: 20px; font-style: bold;">EGP 4568</span><br>To <span>EGP 3526</span></p>
+</div>
+ <button class="btn9 btn-primary">Book Now</button>
+     
+    </div>
+  </div>
+   <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"> <i class="fa fa-plane" aria-hidden="true"></i>Cairo</h5>
+        <p class="card-text"> <i class="fa fa-plane fa-rotate-180"  aria-hidden="true"></i>Beirot <br>From <span style="color: white; font-size: 20px; font-style: bold;">EGP 4568</span><br>To <span>EGP 3526</span></p>
+</div>
+ <button class="btn9 btn-primary">Book Now</button>
+ 
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+<div class="inner1" id="inner1">
+  <div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="fa fa-plane" aria-hidden="true"></i>sharm</h5>
+        <p class="card-text"> <i class="fa fa-plane fa-rotate-180"  aria-hidden="true"></i>alexandria <br>From <span style="color: white; font-size: 20px; font-style: bold;">EGP 4568</span><br>To <span>EGP 3526</span></p>
+</div>
+ <button class="btn9 btn-primary">Book Now</button>
+      
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="fa fa-plane" aria-hidden="true"></i>sainai</h5>
+        <p class="card-text"> <i class="fa fa-plane fa-rotate-180"  aria-hidden="true"></i>cairo <br>From <span style="color: white; font-size: 20px; font-style: bold;">EGP 4568</span><br>To <span>EGP 3526</span></p>
+
+      </div>
+
+ <button class="btn9 btn-primary">Book Now</button>
+    </div>
+  </div>
+</div>
+  <div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="fa fa-plane" aria-hidden="true"></i>greman</h5>
+        <p class="card-text"> <i class="fa fa-plane fa-rotate-180"  aria-hidden="true"></i>egypt <br>From <span style="color: white; font-size: 20px; font-style: bold;">EGP 4568</span><br>To <span>EGP 3526</span></p>
+
+
+      </div>
+
+ <button class="btn9 btn-primary">Book Now</button>
+    </div>
+  </div>
+   <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="fa fa-plane" aria-hidden="true"></i>cairo</h5>
+        <p class="card-text"> <i class="fa fa-plane fa-rotate-180"  aria-hidden="true"></i>Beirot <br>From <span style="color: white; font-size: 20px; font-style: bold;">EGP 4568</span><br>To <span>EGP 3526</span></p>
+      </div>
+ <button class="btn9 btn-primary">Book Now</button>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="text-center" >
+
+  <img class="mySlides" src="dd.jpg" >
+  <img class="mySlides" src="d33.jpg" >
+  <img class="mySlides" src="d5.jpg">
+  <img class="mySlides" src="d4.jpg" >
+  <img class="mySlides" src="d1.jpg">
+</div>
+<div class="div4">
+
+
+
+
+
+  
+<!-- Container (Services Section) -->
+<div id="services" class="container-fluid text-center">
+  <h2>SERVICES</h2>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <i class="fa fa-power-off" aria-hidden="true" style="font-size: 30px"></i>
+
+      <h4>POWER</h4>
+    </div>
+    <div class="col-sm-4">
+
+      <i class="fa fa-heart" aria-hidden="true" style="font-size: 30px"></i>
+      <h4>LOVE</h4>
+    </div>
+    <div class="col-sm-4">
+      <i class="fa fa-tasks" aria-hidden="true" style="font-size: 30px"></i>
+      <h4>JOB DONE</h4>
+    </div>
+  </div>
+  <br><br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <i class="fa fa-cutlery" aria-hidden="true" style="font-size: 30px; color: black"></i>
+      <h4>FOOD</h4>
+    </div>
+    <div class="col-sm-4">
+      <i class="fa fa-certificate" aria-hidden="true" style="font-size: 30px"></i>
+      <h4>CERTIFIED</h4>
+    </div>
+    <div class="col-sm-4">
+      <i class="fa fa-lock" aria-hidden="true" style="font-size: 30px"></i>
+      <h4 style="color:#303030;">HARD WORK</h4>
+    </div>
+  </div>
+</div>
+</div>
+<div class="div5" id="feedback">
+<center><h4>FeedBack</h4></center>
+<div class="nav" >
+     <a id="a1">effeciency</a>
+  <a id="a2">comfortable</a>
+
+  <a id="a3">Flexability</a>
+
+</div>
+<div id="aa"></div>
+<div style="display: none;">
+<div id="a11"><div class="container">
+  <img src="v3.jpg" alt="Avatar" style="width:90px">
+  <p><span>maria.</span> CEO at Mighty Schools.</p>
+  <p>the best ever company.</p>
+</div>
+
+<div class="container">
+  <img src="v1.png" alt="Avatar" style="width:90px">
+  <p><span>ROWAN</span> CEO at Company.</p>
+  <p>Some problems in food.</p>
+</div>
+</div>
+<div id="a22"><div class="container">
+  <img src="v3.jpg" alt="Avatar" style="width:90px">
+  <p><span>Sara.</span> CEO at it.</p>
+  <p>Comfortable flight.</p>
+</div>
+
+<div class="container">
+  <img src="v6.png" alt="Avatar" style="width:90px">
+  <p><span>Donia.</span> CEO at Company.</p>
+  <p>No one is better than this company.</p>
+</div>
+</div>
+
+<div id="a33"><div class="container">
+  <img src="v5.png" alt="Avatar" style="width:90px">
+  <p><span>Chris.</span> teacher Schools.</p>
+  <p>a greate website and effecient.</p>
+</div>
+
+<div class="container">
+  <img src="v4.png" alt="Avatar" style="width:90px">
+  <p><span>Remee.</span> CEO at Company.</p>
+  <p>clever flight.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+
+
+
+<div class="div8">
+
+ <table class="table table-striped" id="tbl">
+<h4 class="text-center">Make a order</h4>
+
+          <tbody>
+             <tr>
+                <td colspan="1">
+                   <form class="well form-horizontal">
+                      <fieldset>
+                         <div class="form-group">
+                            <label class="col-md-4 control-label">Full Name</label>
+                            <div class="col-md-8 inputGroupContainer">
+                               <div class="input-group"><span class="input-group-addon"><i class="fa fa-user" style="font-size: 20px; padding: 5px;"></i></span><input id="fullName"  onchange = "chkName();" name="fullName" placeholder="Full Name" class="form-control" required="true" value="" type="text"></div>
+                            </div>
+                         </div>
+                         <div class="form-group">
+                            <label class="col-md-4 control-label">Address</label>
+                            <div class="col-md-8 inputGroupContainer">
+                               <div class="input-group"><span class="input-group-addon"><i class="fa fa-home" style="font-size: 20px; padding: 5px;"></i></span><input id="addressLine1" name="addressLine1" placeholder="Address Line 1" class="form-control" required="true" value="" type="text"></div>
+                            </div>
+                         </div>
+                              <div class="form-group">
+                            <label class="col-md-4 control-label">Country</label>
+                            <div class="col-md-8 inputGroupContainer">
+                               <div class="input-group">
+                                  <span class="input-group-addon" style="max-width: 100%;"><i class="fa fa-list" style="font-size: 20px; padding: 5px;"></i></span>
+                                  <select class="selectpicker form-control" id="select1">
+                                     </select>
+                               </div>
+                            </div>
+                         </div>
+                               <div class="form-group">
+                            <label class="col-md-4 control-label">City</label>
+                            <div class="col-md-8 inputGroupContainer">
+                               <div class="input-group"><span class="input-group-addon"><i class="fa fa-home" style="font-size: 20px; padding: 5px;"></i></span><input id="city" name="city" placeholder="City" class="form-control" required="true" value="" type="text"></div>
+                            </div>
+                         </div>
+                         <div class="form-group">
+                            <label class="col-md-4 control-label">Email</label>
+                            <div class="col-md-8 inputGroupContainer">
+                               <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope" style="font-size: 20px; padding: 5px;"></i></span><input id="email" name="email" onchange = "ValidateEmail();" placeholder="Email" class="form-control" required="true" value="" type="text"></div>
+                            </div>
+                         </div>
+                         <div class="form-group">
+                            <label class="col-md-4 control-label">Phone Number</label>
+                            <div class="col-md-8 inputGroupContainer">
+                               <div class="input-group"><span class="input-group-addon"><i class="fa fa-phone" style="font-size: 20px; padding: 5px;"></i></span><input id="phoneNumber" name="phoneNumber" p onchange = "chkPhone();" placeholder="Phone Number"  class="form-control" required="true" value="" type="text"></div>
+                            </div>
+                         </div>
+                      </fieldset>
+                   </form>
+                   
+                   <button id="Next" type="submit"class="btn4" onclick="nexts()">Next</button>
+                
+                </td>
+                </tr>
+       </table>
+<div id="dii">
+<div class="di1">
+<center><h4>One Way ticket</h4></center>
+<br>
+<input type="text" name="distination" id="distination1" placeholder="enter your distination" required="true"><br>
+<br>
+<input type="text" name="uplace" placeholder="enter your place" required="true" id="myhome1"><br>
+<input type="date" id="leaving1" name="leaving" required>
+
+<button onclick="don1()" style="border-radius: 25px; background-color: black; width: 150px; float: right; color: white; font-size: 25px;">Done</button>
+</div>
+<div class="di2">
+
+ <center> <h4 style="color: #F3E8EB">Round ticket</h4></center>
+<div class="dii1">
+  <input type="text" name="distination" id="distination" placeholder="enter your distination" required="true">
+
+<input type="text" name="uplace" placeholder="enter your place" id="myhome" required="true"><br>
+<button onclick="backs()" style="border-radius: 25px; background-color:#7F056E; width: 150px; color: black; font-size: 25px; float:left; margin-top: 30px;">back</button>
+<button onclick="don()" style="border-radius: 25px; background-color: white; width: 150px; color: black; font-size: 25px; margin-left: 60px;margin-top: 30px;">Done</button>
+
+</div>
+<div class="dii2">
+  <div style="display: inline;">
+<label  style="color: white; ">Leaving Date</label>  
+<input type="date" id="leaving" name="leaving" required="true" ><br>
+</div>
+<label style="color: white; ">arriving Date</label>
+<input type="date" id="arriving" name="arriving" required="true"><br>
+
+</div>
+
+
+
+</div>
+</div>
+
+    </div>
+
+</div>
+<div>
+<h4>My Flights</h4>  
+<div id="flight1">
+  
+  <h3>no fights for now</h3>
+</div>
+<div class="container" id="flight2">
+  <h4 id="head"></h4>
+  <h5 id="leftt"></h5>
+  <h5 id="nameo"></h5><br>
+  <p id="emaily"></p>
+  <p id="destin"> </p><br>
+  <p id="location">.</p><br>
+  <p id="leavdate"></p><br>
+  <p id="arrdate"></p>
+</div>
+<div class="container" id="flight3">
+  <h4 id="head1"></h4>
+  <h5 id="leftt1"></h5>
+  <h5 id="nameo1"></h5><br>
+  <p id="emaily1"></p>
+  <p id="destin1"> </p><br>
+  <p id="location1">.</p><br>
+  <p id="leavdate1"></p><br>
+  <p id="arrdate1"></p>
+</div>
+
+</div>
+
+
+
+</div>
+
+<div class="about" id="about">
+  
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><i class="fa fa-map-marker" aria-hidden="true"></i> Alexandria, EG</p>
+      <p><i class="fa fa-phone" aria-hidden="true"></i> +00 151222515</p>
+      <p><i class="fa fa-envelope-square" aria-hidden="true"></i>myemail@Gmail.com</p>
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn2" type="submit" onclick="form1()">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<script type="text/javascript" src="action.js"></script>
+<script type="text/javascript">
+    
+
+</script>
+
+</body>
